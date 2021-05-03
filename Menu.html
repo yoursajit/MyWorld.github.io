@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        body {
+            background-color: #0b3351;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        li a {
+            padding: 6px;
+            float: left;
+            color: black;
+            margin-left: 10px;
+            display: block;
+            transition: transform 1s;
+            /*transition-delay:2s;*/
+        }
+
+            li a:hover {
+                background-color: #ff6a00;
+                /*transform:scale(1.2);*/
+                transform: translate(0,10px);
+                /*transform:rotate(360deg);*/
+            }
+
+        .headerparent {
+            float: left;
+            position: relative;
+            height: 80px;
+            width: 100%;
+            background-color: #d5d0d0;
+            box-shadow: 4px 4px 6px #000;
+        }
+    </style>
+</head>
+<body>
+    <header class="headerparent">
+        <img src="Images/car.jpg" style="width: 100px; height: 50px; margin: 15px;" />
+        <h1 style="position: absolute; left: 300px; top: 5px; width: 100px; text-shadow: 3px 3px 6px #649316;">MyGallary</h1>
+        <nav style="position: absolute; bottom: 5px; right: 5px; width: 350px;">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
